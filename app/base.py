@@ -37,7 +37,7 @@ class Base:
             return html
 
     async def get_language_filter(self, lang):
-        languages = {"fa": "46", "en": "13", "ar": "4"}
+        languages = {"bn": "46", "en": "13", "ar": "4"}
         lang = lang.replace(lang, languages[lang])
 
         return lang
